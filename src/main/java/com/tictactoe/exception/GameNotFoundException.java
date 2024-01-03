@@ -1,5 +1,8 @@
 package com.tictactoe.exception;
 
+import lombok.Getter;
+
+@Getter
 public class GameNotFoundException extends Exception {
     String message;
 
@@ -7,7 +10,4 @@ public class GameNotFoundException extends Exception {
         this.message = message;
     }
 
-    public String getMessage() {
-        return this.message;
-    }
 }

@@ -18,7 +18,6 @@ import static com.tictactoe.model.GameStatus.*;
 @Service
 @AllArgsConstructor
 public class GameService {
-
     public Game createGame(Player player) {
         Game game = new Game();
         game.setBoard(new int[3][3]);

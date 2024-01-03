@@ -8,5 +8,5 @@ import lombok.Getter;
 public enum TicToe {
     X(1), O(2);
 
-    private Integer value;
+    private final Integer value;
 }

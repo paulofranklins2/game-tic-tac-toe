@@ -1,5 +1,8 @@
 package com.tictactoe.exception;
 
+import lombok.Getter;
+
+@Getter
 public class InvalidGameException extends Exception {
     String message;
 
@@ -7,7 +10,4 @@ public class InvalidGameException extends Exception {
         this.message = message;
     }
 
-    public String getMessage() {
-        return this.message;
-    }
 }
